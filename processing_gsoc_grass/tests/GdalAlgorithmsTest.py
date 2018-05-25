@@ -26,25 +26,25 @@ __copyright__ = '(C) 2016, Matthias Kuhn'
 __revision__ = ':%H$'
 
 import AlgorithmsTestBase
-from processing.algs.gdal.OgrToPostGis import OgrToPostGis
-from processing.algs.gdal.GdalUtils import GdalUtils
-from processing.algs.gdal.AssignProjection import AssignProjection
-from processing.algs.gdal.ClipRasterByExtent import ClipRasterByExtent
-from processing.algs.gdal.ClipRasterByMask import ClipRasterByMask
-from processing.algs.gdal.gdal2tiles import gdal2tiles
-from processing.algs.gdal.gdaltindex import gdaltindex
-from processing.algs.gdal.contour import contour
-from processing.algs.gdal.GridAverage import GridAverage
-from processing.algs.gdal.GridDataMetrics import GridDataMetrics
-from processing.algs.gdal.GridInverseDistance import GridInverseDistance
-from processing.algs.gdal.GridInverseDistanceNearestNeighbor import GridInverseDistanceNearestNeighbor
-from processing.algs.gdal.GridLinear import GridLinear
-from processing.algs.gdal.GridNearestNeighbor import GridNearestNeighbor
-from processing.algs.gdal.proximity import proximity
-from processing.algs.gdal.rasterize import rasterize
-from processing.algs.gdal.retile import retile
-from processing.algs.gdal.translate import translate
-from processing.algs.gdal.warp import warp
+from processing_gsoc_grass.algs.gdal.OgrToPostGis import OgrToPostGis
+from processing_gsoc_grass.algs.gdal.GdalUtils import GdalUtils
+from processing_gsoc_grass.algs.gdal.AssignProjection import AssignProjection
+from processing_gsoc_grass.algs.gdal.ClipRasterByExtent import ClipRasterByExtent
+from processing_gsoc_grass.algs.gdal.ClipRasterByMask import ClipRasterByMask
+from processing_gsoc_grass.algs.gdal.gdal2tiles import gdal2tiles
+from processing_gsoc_grass.algs.gdal.gdaltindex import gdaltindex
+from processing_gsoc_grass.algs.gdal.contour import contour
+from processing_gsoc_grass.algs.gdal.GridAverage import GridAverage
+from processing_gsoc_grass.algs.gdal.GridDataMetrics import GridDataMetrics
+from processing_gsoc_grass.algs.gdal.GridInverseDistance import GridInverseDistance
+from processing_gsoc_grass.algs.gdal.GridInverseDistanceNearestNeighbor import GridInverseDistanceNearestNeighbor
+from processing_gsoc_grass.algs.gdal.GridLinear import GridLinear
+from processing_gsoc_grass.algs.gdal.GridNearestNeighbor import GridNearestNeighbor
+from processing_gsoc_grass.algs.gdal.proximity import proximity
+from processing_gsoc_grass.algs.gdal.rasterize import rasterize
+from processing_gsoc_grass.algs.gdal.retile import retile
+from processing_gsoc_grass.algs.gdal.translate import translate
+from processing_gsoc_grass.algs.gdal.warp import warp
 
 from qgis.core import (QgsProcessingContext,
                        QgsProcessingFeedback,
@@ -76,7 +76,7 @@ class TestGdalAlgorithms(unittest.TestCase, AlgorithmsTestBase.AlgorithmsTest):
     @classmethod
     def setUpClass(cls):
         start_app()
-        from processing.core.Processing import Processing
+        from processing_gsoc_grass.core.Processing import Processing
         Processing.initialize()
         cls.cleanup_paths = []
 
@@ -1027,7 +1027,7 @@ class TestGdalOgrToPostGis(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         # start_app()
-        from processing.core.Processing import Processing
+        from processing_gsoc_grass.core.Processing import Processing
         Processing.initialize()
 
     @classmethod

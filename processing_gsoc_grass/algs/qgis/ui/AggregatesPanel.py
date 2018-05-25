@@ -46,7 +46,7 @@ from qgis.PyQt.QtWidgets import (
 
 from qgis.core import QgsExpression
 
-from processing.algs.qgis.ui.FieldsMappingPanel import (
+from processing_gsoc_grass.algs.qgis.ui.FieldsMappingPanel import (
     ExpressionDelegate,
     FieldsMappingModel,
     FieldsMappingPanel,

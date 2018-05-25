@@ -43,10 +43,10 @@ from qgis.core import (QgsDataSourceUri,
                        QgsProcessingParameterDefinition,
                        QgsProcessingParameterFileDestination,
                        QgsProcessingParameterFolderDestination)
-from processing.core.ProcessingConfig import ProcessingConfig
-from processing.tools.dataobjects import createContext
-from processing.gui.PostgisTableSelector import PostgisTableSelector
-from processing.gui.ParameterGuiUtils import getFileFilter
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.tools.dataobjects import createContext
+from processing_gsoc_grass.gui.PostgisTableSelector import PostgisTableSelector
+from processing_gsoc_grass.gui.ParameterGuiUtils import getFileFilter
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 WIDGET, BASE = uic.loadUiType(

@@ -250,7 +250,7 @@
   <customwidget>
    <class>ScriptEdit</class>
    <extends>QTextEdit</extends>
-   <header location="global">processing.script.ScriptEdit</header>
+   <header location="global">processing_gsoc_grass.script.ScriptEdit</header>
   </customwidget>
  </customwidgets>
  <resources/>

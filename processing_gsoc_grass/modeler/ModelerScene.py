@@ -31,9 +31,9 @@ from qgis.PyQt.QtWidgets import QGraphicsItem, QGraphicsScene
 from qgis.core import (QgsProcessingParameterDefinition,
                        QgsProcessingModelChildParameterSource,
                        QgsExpression)
-from processing.modeler.ModelerGraphicItem import ModelerGraphicItem
-from processing.modeler.ModelerArrowItem import ModelerArrowItem
-from processing.tools.dataobjects import createContext
+from processing_gsoc_grass.modeler.ModelerGraphicItem import ModelerGraphicItem
+from processing_gsoc_grass.modeler.ModelerArrowItem import ModelerArrowItem
+from processing_gsoc_grass.tools.dataobjects import createContext
 
 
 class ModelerScene(QGraphicsScene):

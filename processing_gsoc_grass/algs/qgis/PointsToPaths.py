@@ -46,7 +46,7 @@ from qgis.core import (QgsFeature,
                        QgsProcessingParameterFeatureSink,
                        QgsProcessingParameterFolderDestination)
 
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 
 class PointsToPaths(QgisAlgorithm):

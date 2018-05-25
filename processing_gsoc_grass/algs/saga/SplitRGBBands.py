@@ -28,7 +28,7 @@ __revision__ = '$Format:%H$'
 import os
 from qgis.core import (QgsProcessingParameterRasterLayer,
                        QgsProcessingParameterRasterDestination)
-from processing.tools.system import getTempFilename
+from processing_gsoc_grass.tools.system import getTempFilename
 from . import SagaUtils
 from .SagaAlgorithmBase import SagaAlgorithmBase
 

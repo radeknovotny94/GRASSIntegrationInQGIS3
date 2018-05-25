@@ -26,7 +26,7 @@ __copyright__ = '(C) 2012, Victor Olaya'
 __revision__ = '$Format:%H$'
 
 import os
-from processing.tools.system import userFolder
+from processing_gsoc_grass.tools.system import userFolder
 
 
 class RenderingStyles:

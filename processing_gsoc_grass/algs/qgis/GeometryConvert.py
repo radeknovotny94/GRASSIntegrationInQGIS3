@@ -37,7 +37,7 @@ from qgis.core import (QgsFeature,
                        QgsProcessingParameterFeatureSource,
                        QgsProcessingParameterEnum,
                        QgsProcessingParameterFeatureSink)
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 
 class GeometryConvert(QgisAlgorithm):

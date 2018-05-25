@@ -31,7 +31,7 @@ __revision__ = '$Format:%H$'
 
 import os
 from qgis.core import QgsProcessingException
-from processing.tools.system import getTempFilename
+from processing_gsoc_grass.tools.system import getTempFilename
 
 
 def incorporatePoints(alg, parameters, context, feedback, pointLayerName='points', networkLayerName='input'):

@@ -52,12 +52,12 @@ from qgis.gui import (QgsDoubleSpinBox,
 from qgis.core import NULL, QgsApplication, QgsSettings
 from qgis.utils import OverrideCursor
 
-from processing.core.ProcessingConfig import (ProcessingConfig,
+from processing_gsoc_grass.core.ProcessingConfig import (ProcessingConfig,
                                               settingsWatcher,
                                               Setting)
-from processing.core.Processing import Processing
-from processing.gui.DirectorySelectorDialog import DirectorySelectorDialog
-from processing.gui.menus import defaultMenuEntries, menusSettingsGroup
+from processing_gsoc_grass.core.Processing import Processing
+from processing_gsoc_grass.gui.DirectorySelectorDialog import DirectorySelectorDialog
+from processing_gsoc_grass.gui.menus import defaultMenuEntries, menusSettingsGroup
 
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]

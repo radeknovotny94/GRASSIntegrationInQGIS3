@@ -27,8 +27,8 @@ __revision__ = '$Format:%H$'
 
 from qgis.PyQt.QtCore import QCoreApplication
 from qgis.core import QgsApplication, QgsProcessingModelAlgorithm
-from processing.gui.ContextAction import ContextAction
-from processing.modeler.ModelerDialog import ModelerDialog
+from processing_gsoc_grass.gui.ContextAction import ContextAction
+from processing_gsoc_grass.modeler.ModelerDialog import ModelerDialog
 
 
 class EditModelAction(ContextAction):

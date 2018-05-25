@@ -31,8 +31,8 @@ from qgis.PyQt import uic
 from qgis.PyQt.QtCore import Qt, QCoreApplication
 from qgis.PyQt.QtWidgets import QAction, QPushButton, QDialogButtonBox, QStyle, QMessageBox, QFileDialog, QMenu, QTreeWidgetItem
 from qgis.PyQt.QtGui import QIcon
-from processing.gui import TestTools
-from processing.core.ProcessingLog import ProcessingLog
+from processing_gsoc_grass.gui import TestTools
+from processing_gsoc_grass.core.ProcessingLog import ProcessingLog
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 WIDGET, BASE = uic.loadUiType(

@@ -36,7 +36,7 @@ from qgis.core import (QgsProcessingFeedback,
                        QgsProcessingParameterVectorDestination,
                        QgsProcessingOutputString,
                        QgsProcessingException)
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 
 class Datasources2Vrt(QgisAlgorithm):

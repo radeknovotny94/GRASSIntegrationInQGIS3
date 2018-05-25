@@ -40,8 +40,8 @@ from qgis.core import (QgsMapLayer,
                        QgsProcessingParameterMatrix)
 from qgis.PyQt.QtWidgets import QWidget, QPushButton, QLineEdit, QHBoxLayout, QSizePolicy, QFileDialog
 
-from processing.gui.AutofillDialog import AutofillDialog
-from processing.gui.ParameterGuiUtils import getFileFilter
+from processing_gsoc_grass.gui.AutofillDialog import AutofillDialog
+from processing_gsoc_grass.gui.ParameterGuiUtils import getFileFilter
 
 
 class BatchOutputSelectionPanel(QWidget):

@@ -42,7 +42,7 @@ from qgis.core import (QgsGeometry,
                        QgsProcessingParameterFeatureSink)
 from qgis.PyQt.QtCore import QVariant
 
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 pluginPath = os.path.split(os.path.split(os.path.dirname(__file__))[0])[0]
 

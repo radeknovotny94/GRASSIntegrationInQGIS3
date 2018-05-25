@@ -33,8 +33,8 @@ from qgis.core import (Qgis,
                        QgsProcessingUtils,
                        QgsApplication,
                        QgsMessageLog)
-from processing.core.ProcessingConfig import ProcessingConfig, Setting
-from processing.tools.system import isWindows, isMac
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig, Setting
+from processing_gsoc_grass.tools.system import isWindows, isMac
 
 from .SagaAlgorithm import SagaAlgorithm
 from .SplitRGBBands import SplitRGBBands

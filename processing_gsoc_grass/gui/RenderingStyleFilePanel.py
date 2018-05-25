@@ -30,7 +30,7 @@ import os
 from qgis.PyQt import uic
 from qgis.PyQt.QtWidgets import QFileDialog
 
-from processing.tools.system import isWindows
+from processing_gsoc_grass.tools.system import isWindows
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 WIDGET, BASE = uic.loadUiType(

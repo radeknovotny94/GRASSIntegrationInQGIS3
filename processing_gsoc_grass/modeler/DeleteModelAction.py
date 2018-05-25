@@ -29,7 +29,7 @@ import os
 from qgis.core import QgsApplication, QgsProcessingModelAlgorithm
 from qgis.PyQt.QtWidgets import QMessageBox
 from qgis.PyQt.QtCore import QCoreApplication
-from processing.gui.ContextAction import ContextAction
+from processing_gsoc_grass.gui.ContextAction import ContextAction
 
 
 class DeleteModelAction(ContextAction):

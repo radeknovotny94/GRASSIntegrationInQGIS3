@@ -29,7 +29,7 @@ from qgis.PyQt.QtCore import Qt, QCoreApplication
 from qgis.PyQt.QtWidgets import QProgressBar
 from qgis.utils import iface
 from qgis.core import QgsProcessingFeedback, Qgis
-from processing.gui.MessageDialog import MessageDialog
+from processing_gsoc_grass.gui.MessageDialog import MessageDialog
 
 
 class MessageBarProgress(QgsProcessingFeedback):

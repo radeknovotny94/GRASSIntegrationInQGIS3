@@ -32,7 +32,7 @@ from qgis.core import (QgsField,
                        QgsProcessingParameterNumber,
                        QgsProcessingParameterEnum,
                        QgsProcessingFeatureSource)
-from processing.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
 
 
 class AddTableField(QgisFeatureBasedAlgorithm):

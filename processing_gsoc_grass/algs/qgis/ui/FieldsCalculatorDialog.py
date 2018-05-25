@@ -44,13 +44,13 @@ from qgis.core import (Qgis,
 from qgis.gui import QgsEncodingFileDialog
 from qgis.utils import OverrideCursor
 
-from processing.core.ProcessingConfig import ProcessingConfig
-from processing.core.ProcessingLog import ProcessingLog
-from processing.gui.AlgorithmExecutor import execute
-from processing.tools import dataobjects
-from processing.gui.Postprocessing import handleAlgorithmResults
-from processing.gui.PostgisTableSelector import PostgisTableSelector
-from processing.gui.ParameterGuiUtils import getFileFilter
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.core.ProcessingLog import ProcessingLog
+from processing_gsoc_grass.gui.AlgorithmExecutor import execute
+from processing_gsoc_grass.tools import dataobjects
+from processing_gsoc_grass.gui.Postprocessing import handleAlgorithmResults
+from processing_gsoc_grass.gui.PostgisTableSelector import PostgisTableSelector
+from processing_gsoc_grass.gui.ParameterGuiUtils import getFileFilter
 
 pluginPath = os.path.dirname(__file__)
 WIDGET, BASE = uic.loadUiType(

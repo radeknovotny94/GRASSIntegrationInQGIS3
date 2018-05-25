@@ -30,7 +30,7 @@ import os
 from qgis.PyQt.QtCore import QCoreApplication
 from qgis.core import (QgsApplication,
                        QgsProcessingProvider)
-from processing.core.ProcessingConfig import ProcessingConfig, Setting
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig, Setting
 from .GdalUtils import GdalUtils
 
 from .AssignProjection import AssignProjection

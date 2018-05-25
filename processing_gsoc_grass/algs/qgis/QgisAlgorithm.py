@@ -27,7 +27,7 @@ __revision__ = '$Format:%H$'
 
 from qgis.core import QgsProcessingAlgorithm, QgsProcessingFeatureBasedAlgorithm
 from qgis.PyQt.QtCore import QCoreApplication
-from processing.algs.help import shortHelp
+from processing_gsoc_grass.algs.help import shortHelp
 
 
 class QgisAlgorithm(QgsProcessingAlgorithm):

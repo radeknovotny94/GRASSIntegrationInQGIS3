@@ -43,7 +43,7 @@ from qgis.core import (
     QgsWkbTypes,
 )
 
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 
 class Aggregate(QgisAlgorithm):

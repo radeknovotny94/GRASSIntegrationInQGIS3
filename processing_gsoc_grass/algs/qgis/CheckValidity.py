@@ -44,7 +44,7 @@ from qgis.core import (QgsSettings,
                        QgsProcessingParameterEnum,
                        QgsProcessingParameterFeatureSink,
                        QgsProcessingOutputNumber)
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 settings_method_key = "/qgis/digitizing/validate_geometries"
 pluginPath = os.path.split(os.path.split(os.path.dirname(__file__))[0])[0]

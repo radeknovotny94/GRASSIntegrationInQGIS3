@@ -56,7 +56,7 @@ from qgis.testing import (_UnexpectedSuccess,
                           unittest)
 from utilities import unitTestDataPath
 
-import processing
+import processing_gsoc_grass
 
 
 def processingTestDataPath():

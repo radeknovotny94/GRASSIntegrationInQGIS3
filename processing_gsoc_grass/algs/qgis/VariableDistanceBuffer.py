@@ -39,7 +39,7 @@ from qgis.core import (QgsWkbTypes,
                        QgsProcessingParameterEnum,
                        QgsProcessingParameterFeatureSink)
 
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 from . import Buffer as buff
 
 pluginPath = os.path.split(os.path.split(os.path.dirname(__file__))[0])[0]

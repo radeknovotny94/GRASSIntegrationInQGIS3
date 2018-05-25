@@ -26,7 +26,7 @@ __copyright__ = '(C) 2013, Victor Olaya'
 __revision__ = '$Format:%H$'
 
 
-from processing.tests.TestData import table
+from processing_gsoc_grass.tests.TestData import table
 
 
 def editCommands(commands):

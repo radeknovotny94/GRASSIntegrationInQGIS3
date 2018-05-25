@@ -40,7 +40,7 @@ from qgis.core import (QgsExpression,
                        QgsProcessingParameterString,
                        QgsProcessingParameterFeatureSink,
                        QgsProcessingException)
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 from .ui.FieldsCalculatorDialog import FieldsCalculatorDialog
 

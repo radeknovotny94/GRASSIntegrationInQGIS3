@@ -32,10 +32,10 @@ from qgis.utils import iface
 from qgis.PyQt.QtCore import QCoreApplication
 from qgis.PyQt.QtWidgets import QMessageBox
 
-from processing.gui.ContextAction import ContextAction
+from processing_gsoc_grass.gui.ContextAction import ContextAction
 
-from processing.script.ScriptEditorDialog import ScriptEditorDialog
-from processing.script import ScriptUtils
+from processing_gsoc_grass.script.ScriptEditorDialog import ScriptEditorDialog
+from processing_gsoc_grass.script import ScriptUtils
 
 
 class EditScriptAction(ContextAction):

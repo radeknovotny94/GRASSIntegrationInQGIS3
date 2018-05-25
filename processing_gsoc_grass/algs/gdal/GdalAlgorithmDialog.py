@@ -43,12 +43,12 @@ from qgis.gui import (QgsMessageBar,
                       QgsProjectionSelectionWidget,
                       QgsProcessingAlgorithmDialogBase)
 
-from processing.gui.AlgorithmDialog import AlgorithmDialog
-from processing.gui.AlgorithmDialogBase import AlgorithmDialogBase
-from processing.gui.ParametersPanel import ParametersPanel
-from processing.gui.MultipleInputPanel import MultipleInputPanel
-from processing.gui.NumberInputPanel import NumberInputPanel
-from processing.tools.dataobjects import createContext
+from processing_gsoc_grass.gui.AlgorithmDialog import AlgorithmDialog
+from processing_gsoc_grass.gui.AlgorithmDialogBase import AlgorithmDialogBase
+from processing_gsoc_grass.gui.ParametersPanel import ParametersPanel
+from processing_gsoc_grass.gui.MultipleInputPanel import MultipleInputPanel
+from processing_gsoc_grass.gui.NumberInputPanel import NumberInputPanel
+from processing_gsoc_grass.tools.dataobjects import createContext
 
 
 class GdalAlgorithmDialog(AlgorithmDialog):

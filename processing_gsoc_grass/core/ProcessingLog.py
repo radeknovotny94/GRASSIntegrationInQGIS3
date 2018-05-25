@@ -28,8 +28,8 @@ __revision__ = '$Format:%H$'
 import os
 import codecs
 import datetime
-from processing.tools.system import userFolder
-from processing.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.tools.system import userFolder
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
 from qgis.PyQt.QtCore import QCoreApplication
 
 LOG_SEPARATOR = '|~|'

@@ -22,7 +22,7 @@ from qgis.core import QgsProject
 
 from qgis.PyQt.QtWidgets import QComboBox
 
-from processing.gui.wrappers import (
+from processing_gsoc_grass.gui.wrappers import (
     BasicWidgetWrapper
 )
 

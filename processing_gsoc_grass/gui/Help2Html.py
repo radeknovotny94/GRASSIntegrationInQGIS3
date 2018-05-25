@@ -31,7 +31,7 @@ import json
 
 from qgis.PyQt.QtCore import QCoreApplication, QUrl
 
-from processing.tools import system
+from processing_gsoc_grass.tools import system
 
 ALG_DESC = 'ALG_DESC'
 ALG_CREATOR = 'ALG_CREATOR'

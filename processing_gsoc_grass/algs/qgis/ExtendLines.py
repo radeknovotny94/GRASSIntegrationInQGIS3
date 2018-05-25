@@ -28,7 +28,7 @@ __revision__ = '$Format:%H$'
 from qgis.core import (QgsProcessingParameterNumber,
                        QgsProcessingException,
                        QgsProcessing)
-from processing.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
 
 
 class ExtendLines(QgisFeatureBasedAlgorithm):

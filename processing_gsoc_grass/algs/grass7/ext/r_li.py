@@ -27,7 +27,7 @@ __revision__ = '$Format:%H$'
 
 import shutil
 from qgis.core import QgsProcessingParameterString
-from processing.tools.system import (isWindows, mkdir,
+from processing_gsoc_grass.tools.system import (isWindows, mkdir,
                                      getTempFilename)
 import os
 

@@ -36,7 +36,7 @@ from qgis.gui import QgsDockWidget
 from qgis.PyQt.QtGui import QDesktopServices
 from qgis.PyQt.QtWidgets import QTreeWidgetItem
 
-from processing.core.ProcessingResults import resultsList
+from processing_gsoc_grass.core.ProcessingResults import resultsList
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 WIDGET, BASE = uic.loadUiType(

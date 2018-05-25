@@ -40,8 +40,8 @@ from qgis.core import (QgsFeatureRequest,
                        QgsProcessingParameterFeatureSource,
                        QgsProcessingParameterFeatureSink)
 from qgis.PyQt.QtCore import QVariant
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
-from processing.tools import raster
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.tools import raster
 
 
 class PointsFromPolygons(QgisAlgorithm):

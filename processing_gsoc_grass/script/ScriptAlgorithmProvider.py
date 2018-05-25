@@ -30,17 +30,17 @@ import os
 from qgis.core import (QgsApplication,
                        QgsProcessingProvider)
 
-from processing.core.ProcessingConfig import ProcessingConfig, Setting
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig, Setting
 
-from processing.gui.ProviderActions import (ProviderActions,
+from processing_gsoc_grass.gui.ProviderActions import (ProviderActions,
                                             ProviderContextMenuActions)
 
-from processing.script.AddScriptFromFileAction import AddScriptFromFileAction
-from processing.script.CreateNewScriptAction import CreateNewScriptAction
-from processing.script.AddScriptFromTemplateAction import AddScriptFromTemplateAction
-from processing.script.DeleteScriptAction import DeleteScriptAction
-from processing.script.EditScriptAction import EditScriptAction
-from processing.script import ScriptUtils
+from processing_gsoc_grass.script.AddScriptFromFileAction import AddScriptFromFileAction
+from processing_gsoc_grass.script.CreateNewScriptAction import CreateNewScriptAction
+from processing_gsoc_grass.script.AddScriptFromTemplateAction import AddScriptFromTemplateAction
+from processing_gsoc_grass.script.DeleteScriptAction import DeleteScriptAction
+from processing_gsoc_grass.script.EditScriptAction import EditScriptAction
+from processing_gsoc_grass.script import ScriptUtils
 
 
 class ScriptAlgorithmProvider(QgsProcessingProvider):

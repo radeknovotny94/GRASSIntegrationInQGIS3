@@ -47,9 +47,9 @@ from qgis.gui import QgsSublayersDialog
 from qgis.PyQt.QtCore import QCoreApplication
 from qgis.utils import iface
 
-from processing.core.ProcessingConfig import ProcessingConfig
-from processing.algs.gdal.GdalUtils import GdalUtils
-from processing.tools.system import (getTempFilename,
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.algs.gdal.GdalUtils import GdalUtils
+from processing_gsoc_grass.tools.system import (getTempFilename,
                                      removeInvalidChars)
 
 ALL_TYPES = [-1]

@@ -41,8 +41,8 @@ from qgis.core import (QgsRectangle,
                        QgsProcessingParameterFeatureSource,
                        QgsProcessingParameterFolderDestination)
 
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
-from processing.tools import raster
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.tools import raster
 
 
 class HypsometricCurves(QgisAlgorithm):

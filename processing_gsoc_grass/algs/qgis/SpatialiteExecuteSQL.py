@@ -31,8 +31,8 @@ from qgis.core import (QgsDataSourceUri,
                        QgsProcessingParameterVectorLayer,
                        QgsProcessingParameterString)
 
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
-from processing.tools import spatialite
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.tools import spatialite
 
 
 class SpatialiteExecuteSQL(QgisAlgorithm):

@@ -18,7 +18,7 @@
 """
 
 import os
-from processing.tools.system import mkdir, userFolder
+from processing_gsoc_grass.tools.system import mkdir, userFolder
 
 
 def preconfiguredAlgorithmsFolder():

@@ -52,7 +52,7 @@ from qgis.core import (QgsProcessingModelAlgorithm,
 from qgis.PyQt.QtCore import Qt, QPointF
 from qgis.PyQt.QtWidgets import QGraphicsPathItem, QGraphicsItem
 from qgis.PyQt.QtGui import QPen, QPainterPath, QPolygonF, QPainter
-from processing.modeler.ModelerGraphicItem import ModelerGraphicItem
+from processing_gsoc_grass.modeler.ModelerGraphicItem import ModelerGraphicItem
 
 
 class ModelerArrowItem(QGraphicsPathItem):

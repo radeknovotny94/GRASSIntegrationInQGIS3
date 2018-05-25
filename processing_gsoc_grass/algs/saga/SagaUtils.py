@@ -35,8 +35,8 @@ from qgis.core import (Qgis,
                        QgsApplication,
                        QgsProcessingUtils,
                        QgsMessageLog)
-from processing.core.ProcessingConfig import ProcessingConfig
-from processing.tools.system import isWindows, isMac, userFolder
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.tools.system import isWindows, isMac, userFolder
 
 SAGA_LOG_COMMANDS = 'SAGA_LOG_COMMANDS'
 SAGA_LOG_CONSOLE = 'SAGA_LOG_CONSOLE'

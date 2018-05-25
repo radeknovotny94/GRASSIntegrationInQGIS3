@@ -36,7 +36,7 @@ from qgis.core import (Qgis,
                        QgsProcessingParameterNumber,
                        QgsProcessingParameterCrs,
                        QgsProcessingParameterRasterDestination)
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 
 class CreateConstantRaster(QgisAlgorithm):

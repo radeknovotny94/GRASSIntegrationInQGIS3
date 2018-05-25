@@ -39,8 +39,8 @@ from qgis.core import (QgsFeature,
                        QgsProcessingParameterRasterLayer,
                        QgsProcessingParameterFeatureSource,
                        QgsProcessingParameterFeatureSink)
-from processing.tools import raster
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.tools import raster
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 
 class PointsFromLines(QgisAlgorithm):

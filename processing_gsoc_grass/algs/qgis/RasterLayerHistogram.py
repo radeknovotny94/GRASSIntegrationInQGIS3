@@ -32,8 +32,8 @@ from qgis.core import (QgsProcessingParameterRasterLayer,
                        QgsProcessingParameterBand,
                        QgsProcessingParameterNumber,
                        QgsProcessingParameterFileDestination)
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
-from processing.tools import raster
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.tools import raster
 
 
 class RasterLayerHistogram(QgisAlgorithm):

@@ -34,7 +34,7 @@ from qgis.core import (QgsWkbTypes,
                        QgsProcessingParameterExpression,
                        QgsProcessingFeatureSource)
 
-from processing.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
 
 
 class GeometryByExpression(QgisFeatureBasedAlgorithm):

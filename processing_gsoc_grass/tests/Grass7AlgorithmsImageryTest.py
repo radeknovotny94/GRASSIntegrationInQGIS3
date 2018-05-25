@@ -34,7 +34,7 @@ from qgis.testing import (
     start_app,
     unittest
 )
-from processing.algs.grass7.Grass7Utils import Grass7Utils
+from processing_gsoc_grass.algs.grass7.Grass7Utils import Grass7Utils
 
 
 class TestGrass7AlgorithmsImageryTest(unittest.TestCase, AlgorithmsTestBase.AlgorithmsTest):
@@ -42,7 +42,7 @@ class TestGrass7AlgorithmsImageryTest(unittest.TestCase, AlgorithmsTestBase.Algo
     @classmethod
     def setUpClass(cls):
         start_app()
-        from processing.core.Processing import Processing
+        from processing_gsoc_grass.core.Processing import Processing
         Processing.initialize()
         cls.cleanup_paths = []
 
@@ -50,7 +50,7 @@ class TestGrass7AlgorithmsImageryTest(unittest.TestCase, AlgorithmsTestBase.Algo
 
     @classmethod
     def tearDownClass(cls):
-        from processing.core.Processing import Processing
+        from processing_gsoc_grass.core.Processing import Processing
         Processing.deinitialize()
         for path in cls.cleanup_paths:
             shutil.rmtree(path)

@@ -33,7 +33,7 @@ from qgis.core import (QgsProcessingModelAlgorithm,
                        QgsProcessingParameterNumber,
                        QgsProcessingParameterField,
                        QgsProcessingParameterFile)
-from processing.modeler.ModelerParametersDialog import (ModelerParametersDialog)
+from processing_gsoc_grass.modeler.ModelerParametersDialog import (ModelerParametersDialog)
 start_app()
 
 

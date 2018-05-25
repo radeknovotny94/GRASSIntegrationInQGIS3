@@ -36,10 +36,10 @@ from qgis.core import (Qgis,
                        QgsProcessingUtils,
                        QgsMessageLog)
 from qgis.PyQt.QtCore import QCoreApplication
-from processing.core.ProcessingConfig import ProcessingConfig
-from processing.tools.system import userFolder, isWindows, isMac, mkdir
-from processing.tests.TestData import points
-from processing.algs.gdal.GdalUtils import GdalUtils
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.tools.system import userFolder, isWindows, isMac, mkdir
+from processing_gsoc_grass.tests.TestData import points
+from processing_gsoc_grass.algs.gdal.GdalUtils import GdalUtils
 
 
 class Grass7Utils:

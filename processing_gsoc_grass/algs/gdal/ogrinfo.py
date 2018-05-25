@@ -29,8 +29,8 @@ __revision__ = '$Format:%H$'
 from qgis.core import (QgsProcessingParameterVectorLayer,
                        QgsProcessingParameterBoolean,
                        QgsProcessingParameterFileDestination)
-from processing.algs.gdal.GdalAlgorithm import GdalAlgorithm
-from processing.algs.gdal.GdalUtils import GdalUtils
+from processing_gsoc_grass.algs.gdal.GdalAlgorithm import GdalAlgorithm
+from processing_gsoc_grass.algs.gdal.GdalUtils import GdalUtils
 
 
 class ogrinfo(GdalAlgorithm):

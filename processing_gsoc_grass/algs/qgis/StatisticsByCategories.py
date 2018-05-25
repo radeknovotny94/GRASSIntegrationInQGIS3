@@ -42,7 +42,7 @@ from qgis.core import (QgsProcessingParameterFeatureSource,
                        QgsProcessingFeatureSource,
                        NULL)
 from qgis.PyQt.QtCore import QVariant
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 from collections import defaultdict
 

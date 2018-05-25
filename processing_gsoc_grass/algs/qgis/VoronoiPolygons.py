@@ -41,7 +41,7 @@ from qgis.core import (QgsFeatureRequest,
                        QgsProcessingParameterFeatureSink,
                        QgsProcessingParameterNumber)
 
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 from . import voronoi
 

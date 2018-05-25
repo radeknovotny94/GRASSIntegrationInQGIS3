@@ -33,7 +33,7 @@ from qgis.core import (QgsRectangle,
                        QgsProcessingParameterBand,
                        QgsProcessingParameterFileDestination,
                        QgsProcessingOutputNumber)
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 
 class RasterLayerStatistics(QgisAlgorithm):

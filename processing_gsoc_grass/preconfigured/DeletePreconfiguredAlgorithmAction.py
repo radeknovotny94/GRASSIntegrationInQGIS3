@@ -29,8 +29,8 @@ import os
 from qgis.PyQt.QtCore import QCoreApplication
 from qgis.PyQt.QtWidgets import QMessageBox
 from qgis.core import QgsApplication
-from processing.gui.ContextAction import ContextAction
-from processing.preconfigured.PreconfiguredAlgorithm import PreconfiguredAlgorithm
+from processing_gsoc_grass.gui.ContextAction import ContextAction
+from processing_gsoc_grass.preconfigured.PreconfiguredAlgorithm import PreconfiguredAlgorithm
 
 
 class DeletePreconfiguredAlgorithmAction(ContextAction):

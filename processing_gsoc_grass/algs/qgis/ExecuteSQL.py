@@ -37,7 +37,7 @@ from qgis.core import (QgsVirtualLayerDefinition,
                        QgsFeatureSink,
                        QgsProcessingException)
 
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 
 class ExecuteSQL(QgisAlgorithm):

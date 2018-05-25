@@ -36,7 +36,7 @@ except:
 from qgis.core import (QgsApplication,
                        QgsProcessingProvider)
 
-from processing.script import ScriptUtils
+from processing_gsoc_grass.script import ScriptUtils
 
 from .QgisAlgorithm import QgisAlgorithm
 

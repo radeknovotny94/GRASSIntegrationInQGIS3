@@ -36,7 +36,7 @@ from qgis.PyQt import uic
 from qgis.PyQt.QtCore import Qt, QByteArray, QCoreApplication
 from qgis.PyQt.QtWidgets import QDialog, QAbstractItemView, QPushButton, QDialogButtonBox, QFileDialog
 from qgis.PyQt.QtGui import QStandardItemModel, QStandardItem
-from processing.tools import dataobjects
+from processing_gsoc_grass.tools import dataobjects
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 WIDGET, BASE = uic.loadUiType(

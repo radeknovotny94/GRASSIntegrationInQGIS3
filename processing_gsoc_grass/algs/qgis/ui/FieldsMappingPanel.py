@@ -58,8 +58,8 @@ from qgis.core import (
 )
 from qgis.gui import QgsFieldExpressionWidget
 
-from processing.gui.wrappers import WidgetWrapper, DIALOG_STANDARD, DIALOG_MODELER
-from processing.tools import dataobjects
+from processing_gsoc_grass.gui.wrappers import WidgetWrapper, DIALOG_STANDARD, DIALOG_MODELER
+from processing_gsoc_grass.tools import dataobjects
 
 
 pluginPath = os.path.dirname(__file__)

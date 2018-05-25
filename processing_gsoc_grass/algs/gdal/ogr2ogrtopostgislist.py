@@ -33,11 +33,11 @@ from qgis.core import (QgsProcessingParameterFeatureSource,
                        QgsProcessingParameterExtent,
                        QgsProcessingParameterBoolean)
 
-from processing.algs.gdal.GdalAlgorithm import GdalAlgorithm
-from processing.algs.gdal.GdalUtils import GdalUtils
+from processing_gsoc_grass.algs.gdal.GdalAlgorithm import GdalAlgorithm
+from processing_gsoc_grass.algs.gdal.GdalUtils import GdalUtils
 
-from processing.tools.postgis import uri_from_name, GeoDB
-from processing.tools.system import isWindows
+from processing_gsoc_grass.tools.postgis import uri_from_name, GeoDB
+from processing_gsoc_grass.tools.system import isWindows
 
 
 class Ogr2OgrToPostGisList(GdalAlgorithm):

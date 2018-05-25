@@ -48,16 +48,16 @@ from qgis.gui import (QgsMessageBar,
                       QgsProcessingAlgorithmDialogBase)
 from qgis.utils import iface
 
-from processing.core.ProcessingLog import ProcessingLog
-from processing.core.ProcessingConfig import ProcessingConfig
-from processing.core.ProcessingResults import resultsList
-from processing.gui.ParametersPanel import ParametersPanel
-from processing.gui.BatchAlgorithmDialog import BatchAlgorithmDialog
-from processing.gui.AlgorithmDialogBase import AlgorithmDialogBase
-from processing.gui.AlgorithmExecutor import executeIterating, execute
-from processing.gui.Postprocessing import handleAlgorithmResults
+from processing_gsoc_grass.core.ProcessingLog import ProcessingLog
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.core.ProcessingResults import resultsList
+from processing_gsoc_grass.gui.ParametersPanel import ParametersPanel
+from processing_gsoc_grass.gui.BatchAlgorithmDialog import BatchAlgorithmDialog
+from processing_gsoc_grass.gui.AlgorithmDialogBase import AlgorithmDialogBase
+from processing_gsoc_grass.gui.AlgorithmExecutor import executeIterating, execute
+from processing_gsoc_grass.gui.Postprocessing import handleAlgorithmResults
 
-from processing.tools import dataobjects
+from processing_gsoc_grass.tools import dataobjects
 
 
 class AlgorithmDialog(QgsProcessingAlgorithmDialogBase):

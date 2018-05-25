@@ -44,8 +44,8 @@ from qgis.core import (QgsApplication,
                        QgsProcessingFeatureBasedAlgorithm)
 from qgis.utils import iface, OverrideCursor
 
-from processing.gui.AlgorithmDialog import AlgorithmDialog
-from processing.script import ScriptUtils
+from processing_gsoc_grass.gui.AlgorithmDialog import AlgorithmDialog
+from processing_gsoc_grass.script import ScriptUtils
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 WIDGET, BASE = uic.loadUiType(

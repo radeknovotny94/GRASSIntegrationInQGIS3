@@ -37,8 +37,8 @@ from qgis.core import (Qgis,
                        QgsMessageLog
                        )
 
-from processing.core.ProcessingConfig import ProcessingConfig
-from processing.tools.system import mkdir, userFolder
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.tools.system import mkdir, userFolder
 
 scriptsRegistry = dict()
 

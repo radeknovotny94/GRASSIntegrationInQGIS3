@@ -33,10 +33,10 @@ from qgis.core import (Qgis,
                        QgsVectorFileWriter,
                        QgsMessageLog,
                        QgsProcessingUtils)
-from processing.core.ProcessingConfig import (ProcessingConfig, Setting)
+from processing_gsoc_grass.core.ProcessingConfig import (ProcessingConfig, Setting)
 from .Grass7Utils import Grass7Utils
 from .Grass7Algorithm import Grass7Algorithm
-from processing.tools.system import isWindows, isMac
+from processing_gsoc_grass.tools.system import isWindows, isMac
 
 pluginPath = os.path.normpath(os.path.join(
     os.path.split(os.path.dirname(__file__))[0], os.pardir))

@@ -34,7 +34,7 @@ from qgis.PyQt import uic
 
 from qgis.utils import iface
 
-from processing.gui.PointMapTool import PointMapTool
+from processing_gsoc_grass.gui.PointMapTool import PointMapTool
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 WIDGET, BASE = uic.loadUiType(

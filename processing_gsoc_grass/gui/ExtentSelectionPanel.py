@@ -40,9 +40,9 @@ from qgis.core import (QgsProcessingUtils,
                        QgsCoordinateReferenceSystem,
                        QgsRectangle,
                        QgsReferencedRectangle)
-from processing.gui.RectangleMapTool import RectangleMapTool
-from processing.core.ProcessingConfig import ProcessingConfig
-from processing.tools.dataobjects import createContext
+from processing_gsoc_grass.gui.RectangleMapTool import RectangleMapTool
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.tools.dataobjects import createContext
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 WIDGET, BASE = uic.loadUiType(

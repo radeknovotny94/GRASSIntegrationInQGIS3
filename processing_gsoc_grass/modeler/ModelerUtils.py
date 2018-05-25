@@ -26,8 +26,8 @@ __copyright__ = '(C) 2012, Victor Olaya'
 __revision__ = '$Format:%H$'
 
 import os
-from processing.tools.system import userFolder, mkdir
-from processing.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.tools.system import userFolder, mkdir
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
 
 
 class ModelerUtils:

@@ -32,7 +32,7 @@ from qgis.core import (QgsProcessing,
                        QgsVectorFileWriter,
                        QgsRasterFileWriter)
 from qgis.PyQt.QtCore import QCoreApplication
-from processing.tools import dataobjects
+from processing_gsoc_grass.tools import dataobjects
 
 
 def tr(string, context=''):

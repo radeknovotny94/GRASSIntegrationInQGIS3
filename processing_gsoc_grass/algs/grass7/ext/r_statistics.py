@@ -26,7 +26,7 @@ __copyright__ = '(C) 2017, Médéric Ribreux'
 __revision__ = '$Format:%H$'
 
 from qgis.core import QgsProcessingParameterString
-from processing.algs.grass7.Grass7Utils import Grass7Utils
+from processing_gsoc_grass.algs.grass7.Grass7Utils import Grass7Utils
 
 
 def processCommand(alg, parameters, context, feedback):

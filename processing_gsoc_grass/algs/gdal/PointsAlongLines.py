@@ -32,10 +32,10 @@ from qgis.core import (QgsProcessingParameterFeatureSource,
                        QgsProcessingParameterDefinition,
                        QgsProcessing)
 
-from processing.algs.gdal.GdalAlgorithm import GdalAlgorithm
-from processing.algs.gdal.GdalUtils import GdalUtils
+from processing_gsoc_grass.algs.gdal.GdalAlgorithm import GdalAlgorithm
+from processing_gsoc_grass.algs.gdal.GdalUtils import GdalUtils
 
-from processing.tools.system import isWindows
+from processing_gsoc_grass.tools.system import isWindows
 
 
 class PointsAlongLines(GdalAlgorithm):

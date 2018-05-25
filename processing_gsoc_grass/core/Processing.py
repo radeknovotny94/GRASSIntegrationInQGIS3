@@ -46,24 +46,24 @@ from qgis.core import (QgsMessageLog,
                        QgsProcessingOutputMultipleLayers,
                        QgsProcessingFeedback)
 
-import processing
-from processing.core.ProcessingConfig import ProcessingConfig
-from processing.gui.MessageBarProgress import MessageBarProgress
-from processing.gui.RenderingStyles import RenderingStyles
-from processing.gui.Postprocessing import handleAlgorithmResults
-from processing.gui.AlgorithmExecutor import execute
-from processing.script import ScriptUtils
-from processing.tools import dataobjects
+import processing_gsoc_grass
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.gui.MessageBarProgress import MessageBarProgress
+from processing_gsoc_grass.gui.RenderingStyles import RenderingStyles
+from processing_gsoc_grass.gui.Postprocessing import handleAlgorithmResults
+from processing_gsoc_grass.gui.AlgorithmExecutor import execute
+from processing_gsoc_grass.script import ScriptUtils
+from processing_gsoc_grass.tools import dataobjects
 
-from processing.algs.qgis.QgisAlgorithmProvider import QgisAlgorithmProvider  # NOQA
-from processing.algs.grass7.Grass7AlgorithmProvider import Grass7AlgorithmProvider
-from processing.algs.gdal.GdalAlgorithmProvider import GdalAlgorithmProvider  # NOQA
-from processing.algs.saga.SagaAlgorithmProvider import SagaAlgorithmProvider  # NOQA
-from processing.script.ScriptAlgorithmProvider import ScriptAlgorithmProvider  # NOQA
-#from processing.preconfigured.PreconfiguredAlgorithmProvider import PreconfiguredAlgorithmProvider  # NOQA
+from processing_gsoc_grass.algs.qgis.QgisAlgorithmProvider import QgisAlgorithmProvider  # NOQA
+from processing_gsoc_grass.algs.grass7.Grass7AlgorithmProvider import Grass7AlgorithmProvider
+from processing_gsoc_grass.algs.gdal.GdalAlgorithmProvider import GdalAlgorithmProvider  # NOQA
+from processing_gsoc_grass.algs.saga.SagaAlgorithmProvider import SagaAlgorithmProvider  # NOQA
+from processing_gsoc_grass.script.ScriptAlgorithmProvider import ScriptAlgorithmProvider  # NOQA
+#from processing_gsoc_grass.preconfigured.PreconfiguredAlgorithmProvider import PreconfiguredAlgorithmProvider  # NOQA
 
 # should be loaded last - ensures that all dependent algorithms are available when loading models
-from processing.modeler.ModelerAlgorithmProvider import ModelerAlgorithmProvider  # NOQA
+from processing_gsoc_grass.modeler.ModelerAlgorithmProvider import ModelerAlgorithmProvider  # NOQA
 
 
 class Processing(object):

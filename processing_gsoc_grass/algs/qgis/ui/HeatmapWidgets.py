@@ -21,8 +21,8 @@ __author__ = 'Nyall Dawson'
 __date__ = 'December 2016'
 __copyright__ = '(C) 2016, Nyall Dawson'
 
-from processing.gui.wrappers import WidgetWrapper, DIALOG_STANDARD
-from processing.tools import dataobjects
+from processing_gsoc_grass.gui.wrappers import WidgetWrapper, DIALOG_STANDARD
+from processing_gsoc_grass.tools import dataobjects
 
 import os
 from qgis.PyQt import uic

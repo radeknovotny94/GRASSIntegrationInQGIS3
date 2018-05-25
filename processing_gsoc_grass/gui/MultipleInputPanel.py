@@ -32,8 +32,8 @@ from qgis.core import QgsProcessing
 from qgis.PyQt import uic
 from qgis.PyQt.QtCore import pyqtSignal
 ''
-from processing.gui.MultipleInputDialog import MultipleInputDialog
-from processing.gui.MultipleFileInputDialog import MultipleFileInputDialog
+from processing_gsoc_grass.gui.MultipleInputDialog import MultipleInputDialog
+from processing_gsoc_grass.gui.MultipleFileInputDialog import MultipleFileInputDialog
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 WIDGET, BASE = uic.loadUiType(

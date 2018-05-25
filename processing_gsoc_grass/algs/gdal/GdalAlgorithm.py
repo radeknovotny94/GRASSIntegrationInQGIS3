@@ -36,8 +36,8 @@ from qgis.core import (QgsApplication,
                        QgsProcessingContext,
                        QgsProcessingFeedback)
 
-from processing.algs.gdal.GdalAlgorithmDialog import GdalAlgorithmDialog
-from processing.algs.gdal.GdalUtils import GdalUtils
+from processing_gsoc_grass.algs.gdal.GdalAlgorithmDialog import GdalAlgorithmDialog
+from processing_gsoc_grass.algs.gdal.GdalUtils import GdalUtils
 
 pluginPath = os.path.normpath(os.path.join(
     os.path.split(os.path.dirname(__file__))[0], os.pardir))

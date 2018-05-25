@@ -30,8 +30,8 @@ from qgis.core import (QgsApplication,
                        QgsProcessingAlgorithm,
                        QgsLocatorFilter,
                        QgsLocatorResult)
-from processing.gui.MessageDialog import MessageDialog
-from processing.gui.AlgorithmDialog import AlgorithmDialog
+from processing_gsoc_grass.gui.MessageDialog import MessageDialog
+from processing_gsoc_grass.gui.AlgorithmDialog import AlgorithmDialog
 from qgis.utils import iface
 
 

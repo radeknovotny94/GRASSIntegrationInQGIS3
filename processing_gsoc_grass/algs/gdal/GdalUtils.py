@@ -45,8 +45,8 @@ from qgis.core import (Qgis,
                        QgsSettings,
                        QgsCredentials,
                        QgsDataSourceUri)
-from processing.core.ProcessingConfig import ProcessingConfig
-from processing.tools.system import isWindows, isMac
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.tools.system import isWindows, isMac
 
 try:
     from osgeo import gdal  # NOQA

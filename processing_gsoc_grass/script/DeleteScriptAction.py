@@ -32,9 +32,9 @@ from qgis.PyQt.QtWidgets import QMessageBox
 
 from qgis.core import QgsApplication, QgsProcessingAlgorithm
 
-from processing.gui.ContextAction import ContextAction
+from processing_gsoc_grass.gui.ContextAction import ContextAction
 
-from processing.script import ScriptUtils
+from processing_gsoc_grass.script import ScriptUtils
 
 
 class DeleteScriptAction(ContextAction):

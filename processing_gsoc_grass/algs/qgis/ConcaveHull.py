@@ -37,8 +37,8 @@ from qgis.core import (QgsFeature,
                        QgsProcessingParameterNumber,
                        QgsProcessingParameterBoolean,
                        QgsProcessingParameterFeatureSink)
-import processing
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+import processing_gsoc_grass
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 
 class ConcaveHull(QgisAlgorithm):

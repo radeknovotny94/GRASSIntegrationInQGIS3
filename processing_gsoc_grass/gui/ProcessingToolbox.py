@@ -36,18 +36,18 @@ from qgis.core import (QgsApplication,
                        QgsProcessingAlgorithm)
 from qgis.gui import QgsDockWidget
 
-from processing.gui.Postprocessing import handleAlgorithmResults
-from processing.core.ProcessingLog import ProcessingLog
-from processing.core.ProcessingConfig import ProcessingConfig, settingsWatcher
-from processing.gui.MessageDialog import MessageDialog
-from processing.gui.AlgorithmDialog import AlgorithmDialog
-from processing.gui.BatchAlgorithmDialog import BatchAlgorithmDialog
-from processing.gui.EditRenderingStylesDialog import EditRenderingStylesDialog
-from processing.gui.MessageBarProgress import MessageBarProgress
-from processing.gui.AlgorithmExecutor import execute
-from processing.gui.ProviderActions import (ProviderActions,
+from processing_gsoc_grass.gui.Postprocessing import handleAlgorithmResults
+from processing_gsoc_grass.core.ProcessingLog import ProcessingLog
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig, settingsWatcher
+from processing_gsoc_grass.gui.MessageDialog import MessageDialog
+from processing_gsoc_grass.gui.AlgorithmDialog import AlgorithmDialog
+from processing_gsoc_grass.gui.BatchAlgorithmDialog import BatchAlgorithmDialog
+from processing_gsoc_grass.gui.EditRenderingStylesDialog import EditRenderingStylesDialog
+from processing_gsoc_grass.gui.MessageBarProgress import MessageBarProgress
+from processing_gsoc_grass.gui.AlgorithmExecutor import execute
+from processing_gsoc_grass.gui.ProviderActions import (ProviderActions,
                                             ProviderContextMenuActions)
-from processing.tools import dataobjects
+from processing_gsoc_grass.tools import dataobjects
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 WIDGET, BASE = uic.loadUiType(

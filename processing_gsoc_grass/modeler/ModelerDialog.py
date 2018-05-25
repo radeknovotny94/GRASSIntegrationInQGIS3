@@ -54,12 +54,12 @@ from qgis.core import (Qgis,
                        QgsProcessingModelParameter,
                        )
 from qgis.gui import QgsMessageBar
-from processing.gui.HelpEditionDialog import HelpEditionDialog
-from processing.gui.AlgorithmDialog import AlgorithmDialog
-from processing.modeler.ModelerParameterDefinitionDialog import ModelerParameterDefinitionDialog
-from processing.modeler.ModelerParametersDialog import ModelerParametersDialog
-from processing.modeler.ModelerUtils import ModelerUtils
-from processing.modeler.ModelerScene import ModelerScene
+from processing_gsoc_grass.gui.HelpEditionDialog import HelpEditionDialog
+from processing_gsoc_grass.gui.AlgorithmDialog import AlgorithmDialog
+from processing_gsoc_grass.modeler.ModelerParameterDefinitionDialog import ModelerParameterDefinitionDialog
+from processing_gsoc_grass.modeler.ModelerParametersDialog import ModelerParametersDialog
+from processing_gsoc_grass.modeler.ModelerUtils import ModelerUtils
+from processing_gsoc_grass.modeler.ModelerScene import ModelerScene
 from qgis.utils import iface
 
 
@@ -651,7 +651,7 @@ class ModelerDialog(BASE, WIDGET):
                 alg.setPosition(self.getPositionForAlgorithmItem())
             else:
                 alg.setPosition(pos)
-            from processing.modeler.ModelerGraphicItem import ModelerGraphicItem
+            from processing_gsoc_grass.modeler.ModelerGraphicItem import ModelerGraphicItem
             for i, out in enumerate(alg.modelOutputs()):
                 alg.modelOutput(out).setPosition(alg.position() + QPointF(ModelerGraphicItem.BOX_WIDTH, (i + 1.5) *
                                                                           ModelerGraphicItem.BOX_HEIGHT))

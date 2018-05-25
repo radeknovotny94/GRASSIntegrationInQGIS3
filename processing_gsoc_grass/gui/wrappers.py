@@ -99,21 +99,21 @@ from qgis.gui import (
 from qgis.PyQt.QtCore import pyqtSignal, QObject, QVariant, Qt
 from qgis.utils import iface
 
-from processing.core.ProcessingConfig import ProcessingConfig
-from processing.modeler.MultilineTextPanel import MultilineTextPanel
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.modeler.MultilineTextPanel import MultilineTextPanel
 
-from processing.gui.NumberInputPanel import NumberInputPanel, ModellerNumberInputPanel
-from processing.gui.RangePanel import RangePanel
-from processing.gui.PointSelectionPanel import PointSelectionPanel
-from processing.gui.FileSelectionPanel import FileSelectionPanel
-from processing.gui.CheckboxesPanel import CheckboxesPanel
-from processing.gui.MultipleInputPanel import MultipleInputPanel
-from processing.gui.BatchInputSelectionPanel import BatchInputSelectionPanel
-from processing.gui.FixedTablePanel import FixedTablePanel
-from processing.gui.ExtentSelectionPanel import ExtentSelectionPanel
-from processing.gui.ParameterGuiUtils import getFileFilter
+from processing_gsoc_grass.gui.NumberInputPanel import NumberInputPanel, ModellerNumberInputPanel
+from processing_gsoc_grass.gui.RangePanel import RangePanel
+from processing_gsoc_grass.gui.PointSelectionPanel import PointSelectionPanel
+from processing_gsoc_grass.gui.FileSelectionPanel import FileSelectionPanel
+from processing_gsoc_grass.gui.CheckboxesPanel import CheckboxesPanel
+from processing_gsoc_grass.gui.MultipleInputPanel import MultipleInputPanel
+from processing_gsoc_grass.gui.BatchInputSelectionPanel import BatchInputSelectionPanel
+from processing_gsoc_grass.gui.FixedTablePanel import FixedTablePanel
+from processing_gsoc_grass.gui.ExtentSelectionPanel import ExtentSelectionPanel
+from processing_gsoc_grass.gui.ParameterGuiUtils import getFileFilter
 
-from processing.tools import dataobjects
+from processing_gsoc_grass.tools import dataobjects
 
 DIALOG_STANDARD = 'standard'
 DIALOG_BATCH = 'batch'

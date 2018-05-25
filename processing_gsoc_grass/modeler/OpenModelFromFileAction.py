@@ -31,8 +31,8 @@ from qgis.PyQt.QtCore import QFileInfo, QCoreApplication
 
 from qgis.core import QgsApplication, QgsSettings
 
-from processing.gui.ToolboxAction import ToolboxAction
-from processing.modeler.ModelerDialog import ModelerDialog
+from processing_gsoc_grass.gui.ToolboxAction import ToolboxAction
+from processing_gsoc_grass.modeler.ModelerDialog import ModelerDialog
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 

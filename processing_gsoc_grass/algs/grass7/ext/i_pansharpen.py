@@ -26,8 +26,8 @@ __copyright__ = '(C) 2016, Médéric Ribreux'
 __revision__ = '$Format:%H$'
 
 import os
-from processing.tools.system import getTempFilename
-from processing.algs.grass7.Grass7Utils import Grass7Utils
+from processing_gsoc_grass.tools.system import getTempFilename
+from processing_gsoc_grass.algs.grass7.Grass7Utils import Grass7Utils
 from qgis.core import QgsProcessingParameterString
 
 

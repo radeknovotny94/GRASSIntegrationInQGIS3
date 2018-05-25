@@ -32,8 +32,8 @@ from qgis.core import (QgsProcessing,
                        QgsProcessingParameterString,
                        QgsProcessingParameterBoolean,
                        QgsProcessingParameterVectorDestination)
-from processing.algs.gdal.GdalAlgorithm import GdalAlgorithm
-from processing.algs.gdal.GdalUtils import GdalUtils
+from processing_gsoc_grass.algs.gdal.GdalAlgorithm import GdalAlgorithm
+from processing_gsoc_grass.algs.gdal.GdalUtils import GdalUtils
 
 
 class Dissolve(GdalAlgorithm):

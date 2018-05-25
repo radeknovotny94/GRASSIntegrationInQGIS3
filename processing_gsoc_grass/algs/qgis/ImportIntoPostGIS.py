@@ -35,8 +35,8 @@ from qgis.core import (QgsVectorLayerExporter,
                        QgsProcessingParameterBoolean,
                        QgsWkbTypes)
 
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
-from processing.tools import postgis
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.tools import postgis
 
 
 class ImportIntoPostGIS(QgisAlgorithm):

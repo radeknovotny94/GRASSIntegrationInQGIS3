@@ -28,11 +28,11 @@ from qgis.core import (QgsSettings,
 
 from qgis.PyQt.QtWidgets import QComboBox
 
-from processing.gui.wrappers import (
+from processing_gsoc_grass.gui.wrappers import (
     WidgetWrapper,
     DIALOG_MODELER,
 )
-from processing.tools.postgis import GeoDB
+from processing_gsoc_grass.tools.postgis import GeoDB
 
 
 class ConnectionWidgetWrapper(WidgetWrapper):

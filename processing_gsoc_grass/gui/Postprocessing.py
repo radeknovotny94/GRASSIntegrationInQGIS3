@@ -38,8 +38,8 @@ from qgis.core import (Qgis,
                        QgsWkbTypes,
                        QgsMessageLog)
 
-from processing.core.ProcessingConfig import ProcessingConfig
-from processing.gui.RenderingStyles import RenderingStyles
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.gui.RenderingStyles import RenderingStyles
 
 
 def handleAlgorithmResults(alg, context, feedback=None, showResults=True):

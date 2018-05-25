@@ -38,8 +38,8 @@ from qgis.core import (QgsProcessingParameterDefinition,
                        QgsProcessingModelOutput,
                        QgsProcessingModelChildAlgorithm,
                        QgsProcessingModelAlgorithm)
-from processing.modeler.ModelerParameterDefinitionDialog import ModelerParameterDefinitionDialog
-from processing.modeler.ModelerParametersDialog import ModelerParametersDialog
+from processing_gsoc_grass.modeler.ModelerParameterDefinitionDialog import ModelerParameterDefinitionDialog
+from processing_gsoc_grass.modeler.ModelerParametersDialog import ModelerParametersDialog
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 

@@ -31,10 +31,10 @@ from qgis.core import QgsProcessingUtils
 
 from qgis.PyQt.QtGui import QIcon
 
-from processing.algs.gdal.GdalAlgorithm import GdalAlgorithm
-from processing.algs.gdal.GdalUtils import GdalUtils
+from processing_gsoc_grass.algs.gdal.GdalAlgorithm import GdalAlgorithm
+from processing_gsoc_grass.algs.gdal.GdalUtils import GdalUtils
 
-from processing.tools import dataobjects
+from processing_gsoc_grass.tools import dataobjects
 
 pluginPath = os.path.split(os.path.split(os.path.dirname(__file__))[0])[0]
 

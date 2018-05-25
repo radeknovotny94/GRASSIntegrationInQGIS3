@@ -26,7 +26,7 @@ __copyright__ = '(C) 2013, Victor Olaya'
 __revision__ = '$Format:%H$'
 
 from qgis.core import QgsProcessingProvider
-from processing.core.ProcessingConfig import Setting, ProcessingConfig
+from processing_gsoc_grass.core.ProcessingConfig import Setting, ProcessingConfig
 from exampleprovider.ExampleAlgorithm import ExampleAlgorithm
 
 

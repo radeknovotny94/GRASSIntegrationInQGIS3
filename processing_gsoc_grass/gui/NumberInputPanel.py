@@ -42,7 +42,7 @@ from qgis.core import (QgsExpression,
                        QgsProcessingFeatureSourceDefinition,
                        QgsProcessingUtils)
 from qgis.gui import QgsExpressionBuilderDialog
-from processing.tools.dataobjects import createExpressionContext, createContext
+from processing_gsoc_grass.tools.dataobjects import createExpressionContext, createContext
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 NUMBER_WIDGET, NUMBER_BASE = uic.loadUiType(

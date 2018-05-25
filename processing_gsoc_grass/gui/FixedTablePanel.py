@@ -29,7 +29,7 @@ import os
 
 from qgis.PyQt import uic
 
-from processing.gui.FixedTableDialog import FixedTableDialog
+from processing_gsoc_grass.gui.FixedTableDialog import FixedTableDialog
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 WIDGET, BASE = uic.loadUiType(

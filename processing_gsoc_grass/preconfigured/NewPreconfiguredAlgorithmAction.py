@@ -27,10 +27,10 @@ __copyright__ = '(C) 2016, Victor Olaya'
 __revision__ = '$Format:%H$'
 
 from qgis.PyQt.QtCore import QCoreApplication
-from processing.core.GeoAlgorithm import GeoAlgorithm
-from processing.gui.ContextAction import ContextAction
-from processing.preconfigured.PreconfiguredAlgorithmDialog import PreconfiguredAlgorithmDialog
-from processing.preconfigured.PreconfiguredAlgorithm import PreconfiguredAlgorithm
+from processing_gsoc_grass.core.GeoAlgorithm import GeoAlgorithm
+from processing_gsoc_grass.gui.ContextAction import ContextAction
+from processing_gsoc_grass.preconfigured.PreconfiguredAlgorithmDialog import PreconfiguredAlgorithmDialog
+from processing_gsoc_grass.preconfigured.PreconfiguredAlgorithm import PreconfiguredAlgorithm
 
 
 class NewPreconfiguredAlgorithmAction(ContextAction):

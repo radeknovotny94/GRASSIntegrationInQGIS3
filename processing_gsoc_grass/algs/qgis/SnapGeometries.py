@@ -34,7 +34,7 @@ from qgis.core import (QgsFeatureSink,
                        QgsProcessingParameterNumber,
                        QgsProcessingParameterEnum)
 
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 
 class SnapGeometriesToLayer(QgisAlgorithm):

@@ -33,9 +33,9 @@ from qgis.PyQt.QtWidgets import QFileDialog
 
 from qgis.core import Qgis, QgsApplication, QgsMessageLog, QgsSettings
 
-from processing.gui.ToolboxAction import ToolboxAction
+from processing_gsoc_grass.gui.ToolboxAction import ToolboxAction
 
-from processing.script import ScriptUtils
+from processing_gsoc_grass.script import ScriptUtils
 
 
 class AddScriptFromFileAction(ToolboxAction):

@@ -36,7 +36,7 @@ from qgis.core import (QgsApplication,
                        QgsProcessingException)
 from qgis.analysis import (QgsNativeAlgorithms)
 from qgis.testing import start_app, unittest
-from processing.tools.dataobjects import createContext
+from processing_gsoc_grass.tools.dataobjects import createContext
 
 
 class TestAlg(QgsProcessingAlgorithm):
@@ -67,7 +67,7 @@ class TestQgisAlgorithms(unittest.TestCase, AlgorithmsTestBase.AlgorithmsTest):
     def setUpClass(cls):
         start_app()
         QgsApplication.processingRegistry().addProvider(QgsNativeAlgorithms())
-        from processing.core.Processing import Processing
+        from processing_gsoc_grass.core.Processing import Processing
         Processing.initialize()
         cls.cleanup_paths = []
         cls.in_place_layers = {}
@@ -75,7 +75,7 @@ class TestQgisAlgorithms(unittest.TestCase, AlgorithmsTestBase.AlgorithmsTest):
 
     @classmethod
     def tearDownClass(cls):
-        from processing.core.Processing import Processing
+        from processing_gsoc_grass.core.Processing import Processing
         Processing.deinitialize()
         for path in cls.cleanup_paths:
             shutil.rmtree(path)

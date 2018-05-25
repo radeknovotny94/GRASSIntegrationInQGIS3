@@ -32,9 +32,9 @@ from qgis.PyQt.QtCore import QCoreApplication
 
 from qgis.core import QgsApplication
 
-from processing.gui.ToolboxAction import ToolboxAction
+from processing_gsoc_grass.gui.ToolboxAction import ToolboxAction
 
-from processing.script.ScriptEditorDialog import ScriptEditorDialog
+from processing_gsoc_grass.script.ScriptEditorDialog import ScriptEditorDialog
 
 
 class AddScriptFromTemplateAction(ToolboxAction):

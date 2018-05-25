@@ -49,11 +49,11 @@ from qgis.core import (Qgis,
                        QgsProcessingParameterExtent,
                        QgsProcessingParameterRasterDestination,
                        QgsProcessingParameterVectorDestination)
-from processing.core.ProcessingConfig import ProcessingConfig
-from processing.core.parameters import getParameterFromString
-from processing.algs.help import shortHelp
-from processing.tools.system import getTempFilename
-from processing.algs.saga.SagaNameDecorator import decoratedAlgorithmName, decoratedGroupName
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.core.parameters import getParameterFromString
+from processing_gsoc_grass.algs.help import shortHelp
+from processing_gsoc_grass.tools.system import getTempFilename
+from processing_gsoc_grass.algs.saga.SagaNameDecorator import decoratedAlgorithmName, decoratedGroupName
 from . import SagaUtils
 from .SagaAlgorithmBase import SagaAlgorithmBase
 

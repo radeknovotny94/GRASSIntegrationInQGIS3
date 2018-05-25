@@ -30,7 +30,7 @@ import sys
 import inspect
 
 from qgis.core import QgsApplication
-from processing.core.Processing import Processing
+from processing_gsoc_grass.core.Processing import Processing
 from exampleprovider.ExampleAlgorithmProvider import ExampleAlgorithmProvider
 
 cmd_folder = os.path.split(inspect.getfile(inspect.currentframe()))[0]

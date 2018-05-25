@@ -30,7 +30,7 @@ from qgis.core import (QgsField,
                        QgsProcessing,
                        QgsProcessingParameterField,
                        QgsProcessingFeatureSource)
-from processing.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
 
 
 class TextToFloat(QgisFeatureBasedAlgorithm):

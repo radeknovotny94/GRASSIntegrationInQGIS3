@@ -44,14 +44,14 @@ from qgis.core import (QgsProcessingParameterDefinition,
 from qgis.gui import QgsProcessingAlgorithmDialogBase
 from qgis.utils import OverrideCursor
 
-from processing.gui.BatchPanel import BatchPanel
-from processing.gui.AlgorithmExecutor import execute
-from processing.gui.Postprocessing import handleAlgorithmResults
+from processing_gsoc_grass.gui.BatchPanel import BatchPanel
+from processing_gsoc_grass.gui.AlgorithmExecutor import execute
+from processing_gsoc_grass.gui.Postprocessing import handleAlgorithmResults
 
-from processing.core.ProcessingResults import resultsList
+from processing_gsoc_grass.core.ProcessingResults import resultsList
 
-from processing.tools.system import getTempFilename
-from processing.tools import dataobjects
+from processing_gsoc_grass.tools.system import getTempFilename
+from processing_gsoc_grass.tools import dataobjects
 
 import codecs
 

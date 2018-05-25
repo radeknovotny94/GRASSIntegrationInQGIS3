@@ -26,8 +26,8 @@ __copyright__ = '(C) 2012, Victor Olaya, Carterix Geomatics'
 __revision__ = '$Format:%H$'
 
 from qgis.core import (QgsProcessingException, QgsProcessingParameterString)
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
-from processing.tools import postgis
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.tools import postgis
 
 
 class PostGISExecuteSQL(QgisAlgorithm):

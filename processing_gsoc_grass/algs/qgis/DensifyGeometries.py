@@ -30,7 +30,7 @@ import os
 from qgis.core import (QgsProcessingParameterNumber,
                        QgsProcessing)
 
-from processing.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
 
 
 class DensifyGeometries(QgisFeatureBasedAlgorithm):

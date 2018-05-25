@@ -29,7 +29,7 @@ __revision__ = '$Format:%H$'
 from qgis.core import (QgsProcessingParameterNumber,
                        QgsProcessing)
 
-from processing.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
 
 
 class DensifyGeometriesInterval(QgisFeatureBasedAlgorithm):

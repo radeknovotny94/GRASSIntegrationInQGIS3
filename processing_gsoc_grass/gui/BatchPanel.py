@@ -37,10 +37,10 @@ from qgis.core import (Qgis,
                        QgsProcessingParameterDefinition)
 from qgis.gui import QgsMessageBar
 
-from processing.gui.wrappers import WidgetWrapperFactory
-from processing.gui.BatchOutputSelectionPanel import BatchOutputSelectionPanel
+from processing_gsoc_grass.gui.wrappers import WidgetWrapperFactory
+from processing_gsoc_grass.gui.BatchOutputSelectionPanel import BatchOutputSelectionPanel
 
-from processing.tools import dataobjects
+from processing_gsoc_grass.tools import dataobjects
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 WIDGET, BASE = uic.loadUiType(

@@ -32,7 +32,7 @@ from qgis.core import (QgsGeometry,
                        QgsProcessingParameterEnum,
                        QgsProcessingException)
 
-from processing.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
 
 
 class SingleSidedBuffer(QgisFeatureBasedAlgorithm):

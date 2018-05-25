@@ -57,9 +57,9 @@ from qgis.gui import (QgsMessageBar,
                       QgsFilterLineEdit,
                       QgsHelp)
 
-from processing.gui.wrappers import WidgetWrapperFactory
-from processing.gui.wrappers import InvalidParameterValue
-from processing.gui.MultipleInputPanel import MultipleInputPanel
+from processing_gsoc_grass.gui.wrappers import WidgetWrapperFactory
+from processing_gsoc_grass.gui.wrappers import InvalidParameterValue
+from processing_gsoc_grass.gui.MultipleInputPanel import MultipleInputPanel
 
 
 class ModelerParametersDialog(QDialog):

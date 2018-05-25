@@ -42,10 +42,10 @@ from qgis.core import (QgsMapLayer,
                        QgsProcessingParameterVectorLayer,
                        QgsProcessingParameterFeatureSource)
 
-from processing.gui.MultipleInputDialog import MultipleInputDialog
+from processing_gsoc_grass.gui.MultipleInputDialog import MultipleInputDialog
 
-from processing.gui.ParameterGuiUtils import getFileFilter
-from processing.tools import dataobjects
+from processing_gsoc_grass.gui.ParameterGuiUtils import getFileFilter
+from processing_gsoc_grass.tools import dataobjects
 
 
 class BatchInputSelectionPanel(QWidget):

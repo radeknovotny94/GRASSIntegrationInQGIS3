@@ -31,9 +31,9 @@ from qgis.PyQt.QtGui import QIcon
 
 from osgeo import gdal, osr
 
-from processing.algs.gdal.GdalAlgorithm import GdalAlgorithm
-from processing.core.parameters import ParameterRaster
-from processing.core.parameters import ParameterBoolean
+from processing_gsoc_grass.algs.gdal.GdalAlgorithm import GdalAlgorithm
+from processing_gsoc_grass.core.parameters import ParameterRaster
+from processing_gsoc_grass.core.parameters import ParameterBoolean
 
 pluginPath = os.path.split(os.path.split(os.path.dirname(__file__))[0])[0]
 

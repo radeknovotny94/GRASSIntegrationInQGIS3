@@ -42,8 +42,8 @@ from qgis.core import (QgsFeature,
                        QgsProcessingParameterFeatureSink,
                        QgsProcessingUtils)
 
-from processing.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
-from processing.tools import dataobjects, vector
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
+from processing_gsoc_grass.tools import dataobjects, vector
 
 pluginPath = os.path.split(os.path.split(os.path.dirname(__file__))[0])[0]
 

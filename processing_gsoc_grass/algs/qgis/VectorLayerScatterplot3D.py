@@ -32,9 +32,9 @@ from qgis.core import (QgsProcessingParameterFeatureSource,
                        QgsProcessingParameterField,
                        QgsProcessingParameterFileDestination,
                        QgsProcessingUtils)
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
-from processing.tools import vector
+from processing_gsoc_grass.tools import vector
 
 
 class VectorLayerScatterplot3D(QgisAlgorithm):

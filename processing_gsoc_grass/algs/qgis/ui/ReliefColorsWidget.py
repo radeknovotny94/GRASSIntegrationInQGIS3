@@ -42,8 +42,8 @@ from qgis.PyQt.QtXml import QDomDocument
 from qgis.core import QgsApplication, QgsMapLayer
 from qgis.analysis import QgsRelief
 
-from processing.gui.wrappers import WidgetWrapper
-from processing.tools import system
+from processing_gsoc_grass.gui.wrappers import WidgetWrapper
+from processing_gsoc_grass.tools import system
 
 pluginPath = os.path.dirname(__file__)
 WIDGET, BASE = uic.loadUiType(os.path.join(pluginPath, 'reliefcolorswidgetbase.ui'))

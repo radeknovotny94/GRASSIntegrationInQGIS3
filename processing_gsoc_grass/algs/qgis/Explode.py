@@ -31,7 +31,7 @@ from qgis.core import (QgsFeature,
                        QgsWkbTypes,
                        QgsProcessing,
                        QgsLineString)
-from processing.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
 
 
 class Explode(QgisFeatureBasedAlgorithm):

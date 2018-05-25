@@ -42,7 +42,7 @@ from qgis.core import (QgsField,
                        QgsProcessingParameterFeatureSink,
                        QgsProcessingException,
                        QgsSpatialIndex)
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 from math import sqrt
 

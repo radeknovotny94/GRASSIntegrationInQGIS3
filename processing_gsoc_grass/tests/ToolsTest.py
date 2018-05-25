@@ -31,8 +31,8 @@ import shutil
 from qgis.core import QgsVectorLayer
 from qgis.testing import start_app, unittest
 
-from processing.tests.TestData import points
-from processing.tools import vector
+from processing_gsoc_grass.tests.TestData import points
+from processing_gsoc_grass.tools import vector
 
 testDataPath = os.path.join(os.path.dirname(__file__), 'testdata')
 

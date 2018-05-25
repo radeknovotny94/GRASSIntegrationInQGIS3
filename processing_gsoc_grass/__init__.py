@@ -25,13 +25,13 @@ __copyright__ = '(C) 2012, Victor Olaya'
 
 __revision__ = '$Format:%H$'
 
-from processing.tools.dataobjects import *          # NOQA
-from processing.tools.general import *              # NOQA
-from processing.tools.vector import *               # NOQA
-from processing.tools.raster import *               # NOQA
-from processing.tools.system import *               # NOQA
+from processing_gsoc_grass.tools.dataobjects import *          # NOQA
+from processing_gsoc_grass.tools.general import *              # NOQA
+from processing_gsoc_grass.tools.vector import *               # NOQA
+from processing_gsoc_grass.tools.raster import *               # NOQA
+from processing_gsoc_grass.tools.system import *               # NOQA
 
 
 def classFactory(iface):
-    from processing.ProcessingPlugin import ProcessingPlugin
+    from processing_gsoc_grass.ProcessingPlugin import ProcessingPlugin
     return ProcessingPlugin(iface)

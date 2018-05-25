@@ -37,18 +37,18 @@ from qgis.core import (Qgis,
                        QgsProcessingUtils,
                        QgsXmlUtils)
 
-from processing.core.ProcessingConfig import ProcessingConfig, Setting
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig, Setting
 
-from processing.gui.ProviderActions import (ProviderActions,
+from processing_gsoc_grass.gui.ProviderActions import (ProviderActions,
                                             ProviderContextMenuActions)
 
-from processing.modeler.AddModelFromFileAction import AddModelFromFileAction
-from processing.modeler.CreateNewModelAction import CreateNewModelAction
-from processing.modeler.DeleteModelAction import DeleteModelAction
-from processing.modeler.EditModelAction import EditModelAction
-from processing.modeler.OpenModelFromFileAction import OpenModelFromFileAction
-from processing.modeler.WrongModelException import WrongModelException
-from processing.modeler.ModelerUtils import ModelerUtils
+from processing_gsoc_grass.modeler.AddModelFromFileAction import AddModelFromFileAction
+from processing_gsoc_grass.modeler.CreateNewModelAction import CreateNewModelAction
+from processing_gsoc_grass.modeler.DeleteModelAction import DeleteModelAction
+from processing_gsoc_grass.modeler.EditModelAction import EditModelAction
+from processing_gsoc_grass.modeler.OpenModelFromFileAction import OpenModelFromFileAction
+from processing_gsoc_grass.modeler.WrongModelException import WrongModelException
+from processing_gsoc_grass.modeler.ModelerUtils import ModelerUtils
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 

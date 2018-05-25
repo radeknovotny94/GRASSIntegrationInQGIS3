@@ -34,8 +34,8 @@ from qgis.core import (Qgis,
                        QgsMessageLog,
                        QgsProcessingException,
                        QgsProcessingParameters)
-from processing.gui.Postprocessing import handleAlgorithmResults
-from processing.tools import dataobjects
+from processing_gsoc_grass.gui.Postprocessing import handleAlgorithmResults
+from processing_gsoc_grass.tools import dataobjects
 
 
 def execute(alg, parameters, context=None, feedback=None):

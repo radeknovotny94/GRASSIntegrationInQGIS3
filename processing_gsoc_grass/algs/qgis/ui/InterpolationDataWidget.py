@@ -41,8 +41,8 @@ from qgis.core import (QgsApplication,
 from qgis.core import QgsFieldProxyModel
 from qgis.analysis import QgsInterpolator
 
-from processing.gui.wrappers import WidgetWrapper
-from processing.tools import dataobjects
+from processing_gsoc_grass.gui.wrappers import WidgetWrapper
+from processing_gsoc_grass.tools import dataobjects
 
 pluginPath = os.path.dirname(__file__)
 WIDGET, BASE = uic.loadUiType(os.path.join(pluginPath, 'interpolationdatawidgetbase.ui'))

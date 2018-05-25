@@ -28,16 +28,16 @@ from qgis.PyQt.QtCore import QCoreApplication
 from qgis.PyQt.QtWidgets import QAction, QMenu
 from qgis.PyQt.QtGui import QIcon
 from qgis.PyQt.QtWidgets import QApplication
-from processing.core.ProcessingConfig import ProcessingConfig, Setting
-from processing.gui.MessageDialog import MessageDialog
-from processing.gui.AlgorithmDialog import AlgorithmDialog
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig, Setting
+from processing_gsoc_grass.gui.MessageDialog import MessageDialog
+from processing_gsoc_grass.gui.AlgorithmDialog import AlgorithmDialog
 from qgis.utils import iface
 from qgis.core import QgsApplication
-from processing.gui.MessageBarProgress import MessageBarProgress
-from processing.gui.AlgorithmExecutor import execute
-from processing.gui.Postprocessing import handleAlgorithmResults
-from processing.core.Processing import Processing
-from processing.tools import dataobjects
+from processing_gsoc_grass.gui.MessageBarProgress import MessageBarProgress
+from processing_gsoc_grass.gui.AlgorithmExecutor import execute
+from processing_gsoc_grass.gui.Postprocessing import handleAlgorithmResults
+from processing_gsoc_grass.core.Processing import Processing
+from processing_gsoc_grass.tools import dataobjects
 
 algorithmsToolbar = None
 menusSettingsGroup = 'Menus'

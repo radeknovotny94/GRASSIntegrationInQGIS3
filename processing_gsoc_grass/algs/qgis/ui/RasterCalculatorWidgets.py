@@ -39,13 +39,13 @@ from qgis.core import (QgsProcessingUtils,
                        QgsProcessingOutputRasterLayer,
                        QgsProject)
 
-from processing.gui.wrappers import WidgetWrapper, DIALOG_STANDARD, DIALOG_BATCH
-from processing.gui.BatchInputSelectionPanel import BatchInputSelectionPanel
-from processing.tools import dataobjects
-from processing.tools.system import userFolder
+from processing_gsoc_grass.gui.wrappers import WidgetWrapper, DIALOG_STANDARD, DIALOG_BATCH
+from processing_gsoc_grass.gui.BatchInputSelectionPanel import BatchInputSelectionPanel
+from processing_gsoc_grass.tools import dataobjects
+from processing_gsoc_grass.tools.system import userFolder
 
 
-from processing.gui.wrappers import InvalidParameterValue
+from processing_gsoc_grass.gui.wrappers import InvalidParameterValue
 
 pluginPath = os.path.dirname(__file__)
 WIDGET_ADD_NEW, BASE_ADD_NEW = uic.loadUiType(

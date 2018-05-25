@@ -42,17 +42,17 @@ from qgis.PyQt.QtCore import Qt, QCoreApplication, QDir, QFileInfo
 from qgis.PyQt.QtWidgets import QMenu, QAction
 from qgis.PyQt.QtGui import QIcon, QKeySequence
 
-from processing.core.Processing import Processing
-from processing.gui.AlgorithmDialog import AlgorithmDialog
-from processing.gui.ProcessingToolbox import ProcessingToolbox
-from processing.gui.HistoryDialog import HistoryDialog
-from processing.gui.ConfigDialog import ConfigOptionsPage
-from processing.gui.ResultsDock import ResultsDock
-from processing.gui.AlgorithmLocatorFilter import AlgorithmLocatorFilter
-from processing.modeler.ModelerDialog import ModelerDialog
-from processing.tools.system import tempHelpFolder
-from processing.gui.menus import removeMenus, initializeMenus, createMenus
-from processing.core.ProcessingResults import resultsList
+from processing_gsoc_grass.core.Processing import Processing
+from processing_gsoc_grass.gui.AlgorithmDialog import AlgorithmDialog
+from processing_gsoc_grass.gui.ProcessingToolbox import ProcessingToolbox
+from processing_gsoc_grass.gui.HistoryDialog import HistoryDialog
+from processing_gsoc_grass.gui.ConfigDialog import ConfigOptionsPage
+from processing_gsoc_grass.gui.ResultsDock import ResultsDock
+from processing_gsoc_grass.gui.AlgorithmLocatorFilter import AlgorithmLocatorFilter
+from processing_gsoc_grass.modeler.ModelerDialog import ModelerDialog
+from processing_gsoc_grass.tools.system import tempHelpFolder
+from processing_gsoc_grass.gui.menus import removeMenus, initializeMenus, createMenus
+from processing_gsoc_grass.core.ProcessingResults import resultsList
 
 pluginPath = os.path.dirname(__file__)
 

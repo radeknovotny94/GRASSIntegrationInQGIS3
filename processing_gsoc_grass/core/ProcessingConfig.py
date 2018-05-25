@@ -33,8 +33,8 @@ from qgis.core import (NULL,
                        QgsSettings,
                        QgsVectorFileWriter,
                        QgsRasterFileWriter)
-from processing.tools.system import defaultOutputFolder
-import processing.tools.dataobjects
+from processing_gsoc_grass.tools.system import defaultOutputFolder
+import processing_gsoc_grass.tools.dataobjects
 
 
 class SettingsWatcher(QObject):

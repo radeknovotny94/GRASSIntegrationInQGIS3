@@ -34,8 +34,8 @@ from qgis.PyQt.QtWidgets import QDialog, QHeaderView, QTableWidgetItem
 from qgis.core import (QgsProcessingOutputRasterLayer,
                        QgsProcessingOutputVectorLayer)
 
-from processing.gui.RenderingStyles import RenderingStyles
-from processing.gui.RenderingStyleFilePanel import RenderingStyleFilePanel
+from processing_gsoc_grass.gui.RenderingStyles import RenderingStyles
+from processing_gsoc_grass.gui.RenderingStyleFilePanel import RenderingStyleFilePanel
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]
 WIDGET, BASE = uic.loadUiType(

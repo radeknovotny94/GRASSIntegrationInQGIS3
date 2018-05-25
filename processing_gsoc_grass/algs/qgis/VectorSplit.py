@@ -37,8 +37,8 @@ from qgis.core import (QgsProcessingUtils,
                        QgsExpression,
                        QgsFeatureRequest)
 
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
-from processing.tools.system import mkdir
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.tools.system import mkdir
 
 pluginPath = os.path.split(os.path.split(os.path.dirname(__file__))[0])[0]
 

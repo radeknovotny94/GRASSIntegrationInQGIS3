@@ -29,7 +29,7 @@ __revision__ = '$Format:%H$'
 import os
 from qgis.core import (QgsProcessingAlgorithm,
                        QgsApplication)
-from processing.core.GeoAlgorithm import GeoAlgorithm
+from processing_gsoc_grass.core.GeoAlgorithm import GeoAlgorithm
 from copy import deepcopy
 import json
 

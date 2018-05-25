@@ -29,7 +29,7 @@ from qgis.core import (QgsProcessing,
                        QgsProcessingException,
                        QgsProcessingParameterDefinition,
                        QgsProcessingParameterNumber)
-from processing.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
 
 
 class Orthogonalize(QgisFeatureBasedAlgorithm):

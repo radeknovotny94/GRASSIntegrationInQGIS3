@@ -36,7 +36,7 @@ from qgis.core import (QgsGeometry,
                        QgsWkbTypes,
                        QgsProcessing)
 
-from processing.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisFeatureBasedAlgorithm
 
 pluginPath = os.path.split(os.path.split(os.path.dirname(__file__))[0])[0]
 

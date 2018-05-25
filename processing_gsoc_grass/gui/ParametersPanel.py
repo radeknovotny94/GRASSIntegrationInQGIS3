@@ -47,8 +47,8 @@ from qgis.PyQt.QtWidgets import (QWidget, QHBoxLayout, QToolButton,
                                  QLabel, QCheckBox, QSizePolicy)
 from qgis.PyQt.QtGui import QIcon
 
-from processing.gui.DestinationSelectionPanel import DestinationSelectionPanel
-from processing.gui.wrappers import WidgetWrapperFactory
+from processing_gsoc_grass.gui.DestinationSelectionPanel import DestinationSelectionPanel
+from processing_gsoc_grass.gui.wrappers import WidgetWrapperFactory
 
 
 pluginPath = os.path.split(os.path.dirname(__file__))[0]

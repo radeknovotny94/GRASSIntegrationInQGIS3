@@ -26,7 +26,7 @@ __copyright__ = '(C) 2016, Médéric Ribreux'
 __revision__ = '$Format:%H$'
 
 
-from processing.tools.system import getTempFilename
+from processing_gsoc_grass.tools.system import getTempFilename
 
 
 def checkParameterValuesBeforeExecuting(alg, parameters, context):

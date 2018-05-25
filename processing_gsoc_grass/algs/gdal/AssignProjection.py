@@ -32,10 +32,10 @@ from qgis.PyQt.QtGui import QIcon
 from qgis.core import (QgsProcessingParameterRasterLayer,
                        QgsProcessingParameterCrs,
                        QgsProcessingOutputRasterLayer)
-from processing.algs.gdal.GdalAlgorithm import GdalAlgorithm
-from processing.algs.gdal.GdalUtils import GdalUtils
+from processing_gsoc_grass.algs.gdal.GdalAlgorithm import GdalAlgorithm
+from processing_gsoc_grass.algs.gdal.GdalUtils import GdalUtils
 
-from processing.tools.system import isWindows
+from processing_gsoc_grass.tools.system import isWindows
 
 pluginPath = os.path.split(os.path.split(os.path.dirname(__file__))[0])[0]
 

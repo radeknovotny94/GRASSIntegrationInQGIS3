@@ -66,14 +66,14 @@ from qgis.core import (Qgis,
 from qgis.utils import iface
 from osgeo import ogr
 
-from processing.core.ProcessingConfig import ProcessingConfig
+from processing_gsoc_grass.core.ProcessingConfig import ProcessingConfig
 
-from processing.core.parameters import (getParameterFromString)
+from processing_gsoc_grass.core.parameters import (getParameterFromString)
 
 from .Grass7Utils import Grass7Utils
 
-#from processing.tools import dataobjects, system
-from processing.tools.system import isWindows, getTempFilename
+#from processing_gsoc_grass.tools import dataobjects, system
+from processing_gsoc_grass.tools.system import isWindows, getTempFilename
 
 pluginPath = os.path.normpath(os.path.join(
     os.path.split(os.path.dirname(__file__))[0], os.pardir))

@@ -29,7 +29,7 @@ from qgis.core import (QgsProcessingAlgorithm,
                        QgsProcessingParameterVectorLayer,
                        QgsProcessingOutputVectorLayer,
                        QgsProcessingException)
-from processing.algs.qgis.QgisAlgorithm import QgisAlgorithm
+from processing_gsoc_grass.algs.qgis.QgisAlgorithm import QgisAlgorithm
 
 
 class TruncateTable(QgisAlgorithm):

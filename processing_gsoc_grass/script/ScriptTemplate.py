@@ -6,7 +6,7 @@ from qgis.core import (QgsProcessing,
                        QgsProcessingAlgorithm,
                        QgsProcessingParameterFeatureSource,
                        QgsProcessingParameterFeatureSink)
-import processing
+import processing_gsoc_grass
 
 
 class ExampleProcessingAlgorithm(QgsProcessingAlgorithm):
